@@ -1,0 +1,4 @@
+mkdir build
+cd build
+cmake .. -G "MinGW Makefiles" -D SDL_PATH=/mingw64/include/SDL2
+mingw32-make.exe
